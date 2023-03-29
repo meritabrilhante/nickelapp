@@ -1,25 +1,15 @@
-[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)
-
-This is a minimal [Blitz.js](https://github.com/blitz-js/blitz) app.
-
-# **nickelapp**
+# **Nickel App**
 
 ## Getting Started
 
-Run your app in the development mode.
+### Docker Setup
 
-```
-blitz dev
-```
+If you don't have Docker installed in your machine, please follow the steps in the: https://docs.docker.com/engine/install/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the app get inside the directorie and run:
 
-## Tests
+`docker compose up nickelapp` or `docker compose run --rm nickelapp bash` to run a bash inside the project
 
-Runs your tests using Jest.
-
-```
-yarn test
 ```
 
 Blitz comes with a test setup using [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/).
