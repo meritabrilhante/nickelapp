@@ -1746,10 +1746,10 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@supabase/gotrue-js@^2.18.1":
-  version "2.20.2"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.20.2.tgz#3129a90465153bd97344a2de4d756a6f83236f1e"
-  integrity sha512-m7sVlPcaI+2TFDVc30JTUvbcdHeMQNeBXQKw5ORk8dRb+OqSZM7g+4thIaIdIfcrkKlVoWoEcPjiWVaVSOnK1w==
+"@supabase/gotrue-js@^2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.22.0.tgz#d23c8d171b92fadc960da1ef967b8eb8608d31c8"
+  integrity sha512-YBxg1AoMgXSFbEuamMyuJhKwscmK/eCkL8K7CenCjJJRVKfNHDYkM9F7VX9+atDDY6ejufdYz1auVfsqRrt9pQ==
   dependencies:
     cross-fetch "^3.1.5"
 
@@ -1776,13 +1776,13 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@supabase/supabase-js@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.16.0.tgz#241de61a520b8a06d0fe2ebbca2e6fd9d3a9c1bd"
-  integrity sha512-C/o2KOUBVPR4eD0AEYMnGVUf2UxaeXApCyvUHs0znhJ08jvBjPKXzfcH1q4aaiZHSguvGV/bwfve9rBzSr3H7g==
+"@supabase/supabase-js@2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.19.0.tgz#748e9ad9d297796419616bd23509460bf1740a5b"
+  integrity sha512-LO+uMy4lnmLvpdF5vGSEQgurxoj8qx4LiZve555JeAnrnuyubvDLZ8Kk5nU0+9KRi4VGQIeD5znqMh0OaACj4w==
   dependencies:
     "@supabase/functions-js" "^2.1.0"
-    "@supabase/gotrue-js" "^2.18.1"
+    "@supabase/gotrue-js" "^2.22.0"
     "@supabase/postgrest-js" "^1.1.1"
     "@supabase/realtime-js" "^2.7.2"
     "@supabase/storage-js" "^2.4.0"
